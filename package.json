@@ -1,0 +1,19 @@
+{
+  "name": "miweb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/global.scss css/zota.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
