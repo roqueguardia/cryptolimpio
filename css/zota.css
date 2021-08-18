@@ -1,14 +1,11 @@
 body {
+  background-color: #9b7d7a;
   font-family: Georgia, 'Times New Roman', Times, serif; }
-
-main {
-  background-color: #0093E9;
-  background-image: linear-gradient(351deg, #0093E9 0%, #80D0C7 100%); }
 
 /* Create a sticky/fixed navbar */
 #navbar {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background: #e3e3e3;
   padding: 90px 10px;
   /* Large padding which will shrink on scroll (using JS) */
   transition: 0.4s;
@@ -71,7 +68,11 @@ main {
 .mainPrimero {
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-shadow: 2px 2px 2px black;
-  padding-top: 220px; }
+  padding-top: 220px;
+  padding-bottom: 260px;
+  background: url("https://miro.medium.com/max/1400/0*5KA6zVdlDWs6cZ3Y") repeat center;
+  opacity: 90%;
+  background-size: cover; }
   .mainPrimero .mainPH {
     color: white;
     text-align: center;
@@ -82,12 +83,30 @@ main {
     font-size: 1rem;
     margin-bottom: 50px; }
 
-.row {
+.centro {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: white;
   text-shadow: 2px 2px 2px black;
   margin: auto;
   max-width: 1000px; }
+  .centro .casilla {
+    background: #6d6c6c;
+    box-shadow: 2px 2px 5px black;
+    min-width: 250px;
+    text-align: center; }
+  .centro .casilla1 {
+    background: #6d6c6c;
+    box-shadow: 2px 2px 5px black;
+    min-width: 250px;
+    text-align: center; }
+  .centro .casilla2 {
+    background: #6d6c6c;
+    box-shadow: 2px 2px 5px black;
+    min-width: 250px;
+    text-align: center; }
+
+@media only screen and (min-device-width: 768px) {
+  .casilla {
+    text-align: center; } }
 
 .carousel {
   margin: auto;
@@ -222,10 +241,56 @@ main {
     margin-right: 0;
     font-weight: 600; } }
 
+body {
+  text-shadow: 2px 2px 5px black; }
+
+.primerDiv {
+  text-align: center;
+  padding-top: 220px; }
+
+.carousel {
+  padding-top: 20px; }
+
+.casilla {
+  background-color: #6d6c6c;
+  box-shadow: 2px 2px 5px black; }
+
+.divUno {
+  background-color: black;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  text-align: center; }
+
 h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: gold; }
+
+.black {
+  background-color: black;
+  min-width: 440px; }
+
+.fDiv {
+  margin-top: 200px;
+  padding-bottom: 350px;
+  background-image: url("https://assets.webiconspng.com/uploads/2017/09/House-PNG-Image-37132.png");
+  background-repeat: no-repeat;
+  background-size: 1000px; }
+
+.modal-title {
+  text-align: center; }
+
+.modal-body {
+  text-align: center;
+  color: black; }
+
+.tBasico {
+  text-align: center;
   color: white; }
 
+.tCasillas {
+  padding-top: 50px; }
+
+.justify-content-between {
+  justify-content: space-between !important; }
+
 p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white; }

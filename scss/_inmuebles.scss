@@ -1,0 +1,24 @@
+.fDiv{
+    margin-top: 200px;
+    padding-bottom: 350px;
+    background-image: url("https://assets.webiconspng.com/uploads/2017/09/House-PNG-Image-37132.png");
+    background-repeat: no-repeat;
+    background-size: max($numbers: 1000px)
+}
+.modal-title{
+    text-align: center;
+}
+.modal-body{
+    text-align: center;
+    color: black;
+}
+.tBasico{
+    text-align: center;
+    color: white;
+}
+.tCasillas{
+    padding-top: 50px;
+}
+.justify-content-between {
+    justify-content: space-between!important;
+}

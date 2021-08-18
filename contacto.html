@@ -26,68 +26,118 @@
             </div>
           </div>
     </header>
-    <hr>
     <main>
-<!-- Button to Open the Modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-    Abrir formulario
-    </button>
-    
-    <!-- The Modal -->
-    <div class="modal" id="myModal">
-    <div class="modal-dialog">
-    <div class="modal-content">
-    
-    <!-- Modal Header -->
-    <div class="modal-header">
-    <h4 class="modal-title">Dejá tus datos</h4>
-    <button type="button" class="close" data-dismiss="modal">&times;</button>
-    </div>
-    
-    <!-- Modal body -->
-    <div class="modal-body">
-    
-        <div>
-            <form role="form">
-                <div class="form-group">
-                  <label for="ejemplo_email_1">Email</label>
-                  <input type="email" class="form-control" id="ejemplo_email_1"
-                         placeholder="Introduce tu email">
-                </div>
-                <div class="form-group">
-                  <label for="ejemplo_password_1">Contraseña</label>
-                  <input type="password" class="form-control" id="ejemplo_password_1"
-                         placeholder="Contraseña">
-                </div>
-                <div class="form-group">
-                  <label for="ejemplo_archivo_1">Adjuntar un archivo</label>
-                  <input type="file" id="ejemplo_archivo_1">
-                  <p class="help-block">Ejemplo de texto de ayuda.</p>
-                </div>
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox"> Activa esta casilla
-                  </label>
-                </div>
-                <button type="submit" class="btn btn-default">Enviar</button>
-             </form>
-             
+      <div class="container" style="margin-top: 240px;">
+        <div class="row justify-content-around">
+          <aside class="col-md-4">
+            <h1>Contactame</h1>
+            <p>Podés dejarme cualquier información de contacto y te voy a estar escribiendo a la brevedad</p>
+          </aside>
+          <aside class="col-md-4">
+            <!-- Inicio Boton Formulario -->
+              <section>
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                    Abrir formulario
+                    </button>
+                    
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                    <h4 class="modal-title">Dejá tus datos</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                    
+                        <div>
+                            <form role="form">
+                              <div class="form-group">
+                                <label for="ejemplo_name_1">Nombre y apellido</label>
+                                <input type="name" class="form-control" id="ejemplo_name_1"
+                                      placeholder="Nombre y apellido">
+                              </div>
+                                <div class="form-group">
+                                  <label for="ejemplo_email_1">Email</label>
+                                  <input type="email" class="form-control" id="ejemplo_email_1"
+                                        placeholder="Introduce tu email">
+                                </div>
+                                <div class="form-group">
+                                  <label for="ejemplo_telefono_1">Teléfono</label>
+                                  <input type="number" class="form-control" id="ejemplo_telefono_1"
+                                        placeholder="Teléfono">
+                                </div>
+                                <button type="submit" class="btn btn-default">Enviar</button>
+                            </form>
+                            
+                        </div>
+                    
+                    </div>
+                    
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    </div>
+                    
+                    </div>
+                    </div>
+                    </div>
+                </section>
+                <!-- FIN BOTON FORMULARIO -->  
+          </aside>
         </div>
-    
+      </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>About</h6>
+          <p class="text-justify">Esta página es fue creada como parte de una investigación para aprendizaje personal, acá vas a poder aprender lo básico para conocer cuáles son los métodos y cómo invertir. Lo más importante es que puedas aprender tanto como yo al hacer la página.</p>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Categories</h6>
+          <ul class="footer-links">
+            <li>C</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>GitHub</li>
+            <li>Node.js</li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Redes Sociales</h6>
+          <ul class="footer-links">
+            <li><a href="https://www.linkedin.com/in/gabrieljguardia">LinkedIn</a></li>
+            <li><a href="https://www.facebook.com/GabrielJGuardia">Facebook</a></li>
+            <li><a href="https://www.instagram.com/roqueguardia/">Instagram</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="https://twitter.com/roqueguardia">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
     </div>
-    
-    <!-- Modal footer -->
-    <div class="modal-footer">
-    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2021 Todos los derechos reservados por Gabriel Guardia.
+          </p>
+        </div>
     </div>
-    
-    </div>
-    </div>
-    </div>
-    </main>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+</footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <script src="js/page.js"></script>
+
 </body>
 </html>

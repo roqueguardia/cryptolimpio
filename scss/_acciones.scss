@@ -1,8 +1,14 @@
-h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
+body{
+    text-shadow: $sombra
 }
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+.primerDiv{
+    text-align: center;
+    padding-top: 220px;
+}
+.carousel{
+    padding-top: 20px;
+}
+.casilla{
+    background-color: $casilla;
+    box-shadow: $sombra;
 }

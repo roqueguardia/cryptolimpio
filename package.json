@@ -15,5 +15,13 @@
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roqueguardia/cryptolimpio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/roqueguardia/cryptolimpio/issues"
+  },
+  "homepage": "https://github.com/roqueguardia/cryptolimpio#readme",
   "description": ""
 }

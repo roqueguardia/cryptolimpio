@@ -1,18 +1,13 @@
 body{
-    
+    background-color: rgb(155, 125, 122);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-main{
-  
-  background-color: #0093E9;
-background-image: linear-gradient(351deg, #0093E9 0%, #80D0C7 100%);
 
-}
 // COSAS DEL NAV
 /* Create a sticky/fixed navbar */
 #navbar {
     overflow: hidden;
-    background-color: #f1f1f1;
+    background: rgb(227,227,227);
     padding: 90px 10px; /* Large padding which will shrink on scroll (using JS) */
     transition: 0.4s; /* Adds a transition effect when the padding is decreased */
     position: fixed; /* Sticky/fixed navbar */
@@ -81,6 +76,10 @@ background-image: linear-gradient(351deg, #0093E9 0%, #80D0C7 100%);
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 2px 2px 2px black;
     padding-top:220px;
+    padding-bottom: 260px;
+    background: url("https://miro.medium.com/max/1400/0*5KA6zVdlDWs6cZ3Y") repeat center;
+    opacity: 90%;
+    background-size: cover;
     .mainPH{
         color: white;
         text-align: center;
@@ -93,13 +92,33 @@ background-image: linear-gradient(351deg, #0093E9 0%, #80D0C7 100%);
         margin-bottom: 50px;
     }
 }
-.row{
+.centro{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: white;
   text-shadow: 2px 2px 2px black;
   margin:auto;
   max-width: 1000px;
-
+  .casilla{
+    background: $casilla;
+    box-shadow: $sombra;
+    min-width: 250px;text-align: center;
+  }
+  .casilla1{
+    background: $casilla;
+    box-shadow: $sombra;
+    min-width: 250px;text-align: center;
+  }
+  .casilla2{
+    background: $casilla;
+    box-shadow: $sombra;
+    min-width: 250px;
+    text-align: center;
+  }
+}
+// CENTRO TABLETS
+@media only screen and (min-device-width: 768px){
+  .casilla{
+    text-align: center;
+  }
 }
 
 // CAROUSEL
