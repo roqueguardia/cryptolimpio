@@ -5,10 +5,30 @@ body{
     text-align: center;
     padding-top: 220px;
 }
-.carousel{
-    padding-top: 20px;
-}
 .casilla{
     background-color: $casilla;
     box-shadow: $sombra;
+}
+// COLOR DIV CAROUSEL
+.yellow{
+background-color: orange;
+}
+// CAROUSEL
+.carousel{
+    padding-top: 15%;
+}
+//   FIN CARUSEL
+.belowCaro{
+    background-color: black;
+    padding-top: 5%;
+
+    h4{
+        color: gold;
+    }
+}
+.cedears{
+    background-color: black;
+    h4{
+        color: gold;
+    }
 }

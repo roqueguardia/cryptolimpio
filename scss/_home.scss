@@ -72,6 +72,9 @@ body{
     padding-top: 120px;
   }
   }
+// FIN NAV BAR
+
+// FONDO EDIFICIO
 .mainPrimero{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 2px 2px 2px black;
@@ -92,11 +95,35 @@ body{
         margin-bottom: 50px;
     }
 }
+// FIN FONDO EDIFICIO
+
+
+// RELOJ
+.divMaster{
+  background-color: $casilla;
+  padding-left: 15%;
+  padding-right: 10%;
+  padding-top: 2%;
+  @media screen and (max-width: 768px){
+    .divBro{
+      text-align: center;
+    }
+    .divSis{
+      max-width: 250px;
+      margin: auto;
+      padding-bottom: 2%;
+    }
+  }
+}
+// FIN RELOJ
+
+// CASILLAS
 .centro{
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-shadow: 2px 2px 2px black;
   margin:auto;
   max-width: 1000px;
+  padding-bottom: 2%;
   .casilla{
     background: $casilla;
     box-shadow: $sombra;
@@ -113,7 +140,45 @@ body{
     min-width: 250px;
     text-align: center;
   }
+  @media screen and (max-width: 768px){
+    .casilla{
+      max-width: 400px;
+      margin: auto;
+    }
+  .casilla1{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .casilla2{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  }
 }
+// FIN CASILLAS
+
+
+.colour-green{
+  background: rgb(155,125,122);
+background: linear-gradient(180deg, rgba(155,125,122,1) 0%, rgba(3,192,60,1) 70%);
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  @media only screen and (max-device-width: 768px){
+    .owl{
+      margin: auto;
+      max-width: 400px;
+    }
+    .highLetter{
+      text-align: center;
+    }
+    }
+  
+}
+
 // CENTRO TABLETS
 @media only screen and (min-device-width: 768px){
   .casilla{

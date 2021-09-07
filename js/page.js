@@ -11,4 +11,3 @@ function scrollFunction() {
   }
 }
 // CAROUSEL
-$('.carousel').carousel()

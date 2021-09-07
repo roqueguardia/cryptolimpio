@@ -83,11 +83,25 @@ body {
     font-size: 1rem;
     margin-bottom: 50px; }
 
+.divMaster {
+  background-color: #6d6c6c;
+  padding-left: 15%;
+  padding-right: 10%;
+  padding-top: 2%; }
+  @media screen and (max-width: 768px) {
+    .divMaster .divBro {
+      text-align: center; }
+    .divMaster .divSis {
+      max-width: 250px;
+      margin: auto;
+      padding-bottom: 2%; } }
+
 .centro {
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-shadow: 2px 2px 2px black;
   margin: auto;
-  max-width: 1000px; }
+  max-width: 1000px;
+  padding-bottom: 2%; }
   .centro .casilla {
     background: #6d6c6c;
     box-shadow: 2px 2px 5px black;
@@ -103,6 +117,32 @@ body {
     box-shadow: 2px 2px 5px black;
     min-width: 250px;
     text-align: center; }
+  @media screen and (max-width: 768px) {
+    .centro .casilla {
+      max-width: 400px;
+      margin: auto; }
+    .centro .casilla1 {
+      max-width: 400px;
+      margin: auto;
+      margin-top: 2rem; }
+    .centro .casilla2 {
+      max-width: 400px;
+      margin: auto;
+      margin-top: 2rem; } }
+
+.colour-green {
+  background: #9b7d7a;
+  background: linear-gradient(180deg, #9b7d7a 0%, #03c03c 70%);
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%; }
+  @media only screen and (max-device-width: 768px) {
+    .colour-green .owl {
+      margin: auto;
+      max-width: 400px; }
+    .colour-green .highLetter {
+      text-align: center; } }
 
 @media only screen and (min-device-width: 768px) {
   .casilla {
@@ -248,18 +288,71 @@ body {
   text-align: center;
   padding-top: 220px; }
 
-.carousel {
-  padding-top: 20px; }
-
 .casilla {
   background-color: #6d6c6c;
   box-shadow: 2px 2px 5px black; }
 
-.divUno {
+.yellow {
+  background-color: orange; }
+
+.carousel {
+  padding-top: 15%; }
+
+.belowCaro {
   background-color: black;
-  padding-top: 200px;
+  padding-top: 5%; }
+  .belowCaro h4 {
+    color: gold; }
+
+.cedears {
+  background-color: black; }
+  .cedears h4 {
+    color: gold; }
+
+.btcDiv {
+  background-color: black;
+  padding-top: 20%;
+  padding-bottom: 2%;
+  min-width: 480px; }
+  @media screen and (max-width: 768px) {
+    .btcDiv {
+      padding-top: 40%;
+      padding-bottom: 20%; } }
+  .btcDiv .nice {
+    display: flex;
+    min-width: 450px;
+    margin: auto; }
+    .btcDiv .nice .btc {
+      justify-content: center;
+      max-width: 80%;
+      margin: auto; }
+    .btcDiv .nice .ledZep {
+      justify-content: center;
+      margin: auto;
+      max-width: 250px; }
+
+.divUno {
+  padding-top: 2%;
   padding-bottom: 30px;
-  text-align: center; }
+  text-align: left; }
+
+.divDos {
+  display: flex;
+  align-items: center; }
+  @media screen and (max-width: 768px) {
+    .divDos .binanceImg {
+      justify-content: center;
+      margin: auto;
+      max-width: 250px; }
+    .divDos .metamaskImg {
+      justify-content: center;
+      margin: auto;
+      max-width: 250px; } }
+
+.degree {
+  background: black;
+  background: linear-gradient(0deg, black 0%, #1d5056 0%, black 100%);
+  padding-top: 5%; }
 
 h1 {
   color: gold; }
@@ -268,29 +361,19 @@ h1 {
   background-color: black;
   min-width: 440px; }
 
+.portadaRS {
+  background-color: black;
+  padding-top: 270px; }
+
 .fDiv {
-  margin-top: 200px;
-  padding-bottom: 350px;
-  background-image: url("https://assets.webiconspng.com/uploads/2017/09/House-PNG-Image-37132.png");
-  background-repeat: no-repeat;
-  background-size: 1000px; }
+  background-color: black; }
 
-.modal-title {
-  text-align: center; }
+.colourDiv {
+  background-color: orange;
+  padding-top: 270px; }
 
-.modal-body {
-  text-align: center;
-  color: black; }
-
-.tBasico {
-  text-align: center;
-  color: white; }
-
-.tCasillas {
-  padding-top: 50px; }
-
-.justify-content-between {
-  justify-content: space-between !important; }
+.secPersonal {
+  background-color: black; }
 
 p {
   color: white; }
