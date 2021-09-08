@@ -4,6 +4,7 @@ body{
 .primerDiv{
     text-align: center;
     padding-top: 220px;
+
 }
 .casilla{
     background-color: $casilla;
@@ -11,7 +12,13 @@ body{
 }
 // COLOR DIV CAROUSEL
 .yellow{
-background-color: orange;
+background-image:url(https://media.wsimag.com/attachments/e367a7b0e780d20fc338af54fe0b009003286ac3/store/fill/1090/613/8b110d0843138fbdc34bbe747284d40bc54e5123b6c5f5e924f1fe5cb7c3/El-sol.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+@media screen and (max-width: 580px){
+        padding-top: 100px;
+    }
 }
 // CAROUSEL
 .carousel{
